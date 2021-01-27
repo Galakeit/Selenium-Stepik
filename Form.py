@@ -27,7 +27,7 @@ try:
 
     img = browser.find_element_by_id("treasure")
     img_checked = img.get_attribute("valuex=''")
-    print(valeimg_checked
+    print(valeimg_checked)
     print("value of people radio: ", people_checked)
     assert people_checked is not None, "People radio is not selected by default"
     
